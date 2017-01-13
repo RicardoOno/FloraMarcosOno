@@ -1,0 +1,261 @@
+@charset "UTF-8";
+.padr15 {
+    padding-right: 15px;
+}
+.padr20 {
+    padding-right: 20px!important;
+}
+#jumb {
+    border-radius: 0;
+    height: 400px;
+    background-image: url("../img/capa.png");
+}
+.navbar {
+    margin-bottom: 0px;
+}
+.img-thumbnail {
+    padding: 0;
+    margin-top: 10px;
+}
+.padcatalogo{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.img-article {
+    padding: 10px;
+}
+.btn-meu > .btn {
+    color: #5cb85c;
+    border: 1px solid #eee;
+    background-color: #eee;
+}
+.btn-meu > .btn:hover {
+    color: #fff;
+    border: 1px solid #5cb85c;
+    background-color: #5cb85c;
+    -webkit-transition: .2s ease-in-out;
+    -o-transition:.2s ease-in-out;
+    transition: .2s ease-in-out;
+}
+/* mexendo aleaotiramente */
+/*.col-md-6 {
+    padding-left: 10px;
+    padding-right: 10px;
+}*/
+.thumbnail{
+    padding: 0px;
+}
+/*.container {
+    box-shadow: 0px 4px 3px 1px;
+}*/
+h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.thumbnail:hover {
+  border: 1px solid #259c00;
+  border-radius: 4px;
+  -webkit-transition: border .2s ease-in-out;
+  -o-transition: border .2s ease-in-out;
+  transition: border .2s ease-in-out;
+}
+.table {
+    margin-bottom: 0px;
+}
+.table td {
+    width: 50%;
+}
+.img-modal {
+    text-align: center;
+    width: 200px;
+}
+footer {
+    padding: 20px 0;
+    border-top: 20px solid #2E8B57;
+    background-color: #3CB371;
+    border-bottom: 20px solid #2E8B57
+}
+@media (min-width: 993px)  {
+    .shadow{
+        box-shadow: 3px 2px 2px -2px ;
+        margin-bottom: 30px;
+    }
+    .btn-meu > a {
+        width: 45%;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+    #btn-meu > .btn {
+        width: 15%;
+        margin-bottom: 10px;
+        padding: 10px;
+        color: #5cb85c;
+        border: 1px solid #eee;
+        background-color: #eee;
+    }
+    #btn-meu {
+        text-align: center;
+    }
+    #btn-meu > a:hover {
+        color: #fff;
+        border: 1px solid #5cb85c;
+        background-color: #5cb85c;
+        -webkit-transition: .2s ease-in-out;
+        -o-transition:.2s ease-in-out;
+        transition: .2s ease-in-out;
+    }
+    .submenu {
+        min-width: 750px;
+    }
+}
+@media (max-width: 992px) {
+    .shadow{
+       box-shadow: 3px 2px 2px -2px ;
+        margin-bottom: 30px;
+    }
+    .submenu {
+        min-width: 750px;
+    }
+    #btn-meu > .btn {
+        width: 25%;
+        margin-bottom: 10px;
+        padding: 10px;
+        color: #5cb85c;
+        border: 1px solid #eee;
+        background-color: #eee;
+    }
+    #btn-meu {
+        text-align: center;
+    }
+    #btn-meu > a:hover {
+        color: #fff;
+        border: 1px solid #5cb85c;
+        background-color: #5cb85c;
+        -webkit-transition: .2s ease-in-out;
+        -o-transition:.2s ease-in-out;
+        transition: .2s ease-in-out;
+    }
+    .btn-meu > .btn {
+        width: 45%;
+        padding: 10px;
+        margin-left: 2.5px;
+        margin-right: 2.5px;
+    }
+    .pdl {
+        padding-left: 28px;
+    }
+    .pdr {
+        padding-right: 28px;
+    }
+}
+@media (max-width: 991px){
+    .submenu{
+        min-width: 550px;
+    }
+    #btn-meu > a {
+             width: 45%;
+             margin-bottom: 10px;
+             padding: 10px;
+             color: #5cb85c;
+             border: 1px solid #eee;
+             background-color: #eee;
+         }
+    #btn-meu {
+        text-align: center;
+    }
+    .pdl {
+        padding-left: 28px;
+    }
+    .pdr {
+        padding-right: 28px;
+    }
+
+}
+@media (min-width: 500px) and (max-width: 992px){
+    .width50 {
+        width: 50%;
+    }
+}
+@media (max-width: 767px){
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a.test {
+        padding-left: 10px;
+    }
+    .dropdown-submenu .dropdown-menu {
+        margin-left: 25px;
+    }
+    .dropdown-submenu {
+        margin-left: 15px;
+    }
+    #header-text{
+        font-family: "Yu Gothic UI Semibold";
+        font-size: 0.8em;
+    }
+    .nopdlr0{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #nomarlr0{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .submenu{
+        min-width: 100%!important;
+    }
+    .col-xs-12 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    h1 {
+        text-align: center;
+    }
+
+    #btn-meu > a {
+        width: 90%;
+        margin-bottom: 10px;
+        padding: 10px;
+        color: #5cb85c;
+        border: 1px solid #eee;
+        background-color: #eee;
+    }
+    #btn-meu {
+        text-align: center;
+    }
+    .shadow{
+        box-shadow: 0 2px 0;
+        margin-bottom: 30px;
+    }
+}
+
+/*Carrousel*/
+html,
+body {
+    height: 100%;
+}
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.carousel-caption {
+    bottom: 15px;
+}
+.carousel-indicators {
+    bottom: 10px;
+}
